@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main {
+    margin: 0px 0px 0px 100px;
+}
+
+html {
+    font-family: 'Geologica', sans-serif;
+}
+
+#main .text {
+    width: 600px;
+}
+
+.h2 {
+    color: #74b9ff;
+    margin: 15px 0px 15px 0px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 32px;
+
+}
+
+#text-img {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-bottom: 25px;
+    width: 1000px;
+}
+
+#text-img .img {
+    margin-right: 30px;
+}
+
+#text-img .p1 {
+    margin: 10px 0px 10px 0px;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+#container {
+    display: flex;
+    justify-content: left;
+}
+
+.img2,
+.img3,
+.img4 {
+    font-weight: 600;
+
+}
+
+.img2 {
+    width: 236px;
+}
+
+.img3 {
+    padding-left: 40px;
+}
+
+.img3,
+.img4 {
+    width: 262px;
+    margin: 0px 60px 0px 100px;
+}
+
+#twomain {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sidebar-img .sidebar1 .h3 {
+    margin: 15px 0px 15px 0px;
+    line-height: 40px;
+}
+
+.flex,
+.flex-one,
+.flex-two {
+    display: flex;
+}
+
+#sidebar-img .sidebar1 .hmda {
+    padding: 10px 15px 10px 15px;
+    width: 200px;
+}
+
+#sidebar-img .sidebar1 .button {
+    display: flex;
+    list-style-type: none;
+    padding: 20px 0px 20px 0px;
+}
+
+.lif,
+.lis {
+    padding: 0px 15px 0px 15px;
+    border: 1px none black;
+    border-radius: 10px;
+    background-color: #30336b;
+    color: white;
+}
+
+.lif {
+
+    padding: 10px 20px 10px 20px;
+    /* background-color: antiquewhite; */
+
+}
+
+.lis {
+    margin-left: 75px;
+    padding: 10px 40px 10px 40px;
+    /* background-color: aquamarine; */
+}
+
+.flex img,
+.flex-one img,
+.flex-two img {
+    border: 2px dashed #30336b;
+    border-radius: 20px;
+}
